@@ -1,0 +1,29 @@
+
+.o, .x {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.o {
+    background-image: url("/public/imgs/o.png");
+}
+
+.x {
+    background-image: url("/public/imgs/x.png");
+}
+
+.tile {
+    /* box-sizing: border-box; */
+    width: auto;
+    aspect-ratio: 1 / 1;
+    background-color: #ccc;
+    box-shadow: none;
+    border-radius: 10px;
+    cursor: crosshair;
+}
+
+.tile:hover {
+    /* box-shadow: 2.5px 5px 10px 15px rgba(255, 0, 0, 0.5); */
+    scale: 0.9;
+}
